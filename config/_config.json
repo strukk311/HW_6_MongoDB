@@ -1,0 +1,21 @@
+{
+  "test": {
+    "database": "",
+    "dbName": "tc",
+    "dbConfig": {
+      "useUnifiedTopology": true,
+      "useNewUrlParser": true
+    },
+    "seed": false,
+    "debug": true
+  },
+  "local": {
+    "database": "mongodb+srv://testA:1111@training.bpdbs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "dbName": "myFirstDatabase",
+    "seed": true,
+    "dbConfig": {
+      "useUnifiedTopology": true,
+      "useNewUrlParser": true
+    }
+  }
+}
